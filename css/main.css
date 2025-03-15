@@ -3,17 +3,17 @@
 :root{
     /* colors  */
     --backcolor:#12181c;
-    --fontcolor:#eeeae1;
-    --btncolor:#00FFFF;
+    --fontcolor: rgb(252, 252, 169);/*#eeeae1*/
+    --btncolor:yellow;/*#00FFFF*/
     --fadecolor:#238888;
     --ccolor:linear-gradient(221deg, #212121 28%, #00c1c1 100%);
 
     --box1color:#6616ca;
-    --box1image:linear-gradient(235deg, #6616ca 0%, #f804e9 100%);
+    --box1image:linear-gradient(235deg, #6d5ec1 10%, #07002d 100%);
     --box2color:#118ff6;
-    --box2image:linear-gradient(235deg, #118ff6 0%, #01c1ff 100%);
+    --box2image:linear-gradient(235deg, #6d5ec1 10%, #07002d 100%);
     --box3color:#0d1518;
-    --box3image:linear-gradient(235deg, #0d1518 0%, #0b3f12 100%);
+    --box3image:linear-gradient(235deg, #6d5ec1 10%, #07002d 100%);
     /*---------*/
 
     /* fonts  */
@@ -29,10 +29,10 @@
     /* ------- */
 
     /* background-image  */
-    --bannerback:url(../media/bg1.png);
+    --bannerback:url(../media/MM_IMG/Game_MainMenu.png);/*At the very top*/
     --toggleimg:url(../media/menu-alt.png);
     --toggleactiveimg:url(../media/menu-x.png);
-    --merback:url(../media/mer-bg.jpg);
+    --merback:url(../media/MM_IMG/Game_MainMenu.png);
 
     /*-------------------*/
 }
@@ -56,6 +56,16 @@ html{
 }
 body{
     background-color: var(--backcolor);
+
+
+    width: 99%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
     /* height: 10000px; */
 }
 p{
@@ -298,7 +308,7 @@ nav .navigation li a:hover{
     margin: 20px;
     padding: 15px;
     /* background-color: var(--btncolor); */
-    background-color: var(--fontcolor);
+    background-color: #6d5ec1;
     /* background: rgba(255, 255, 255, 0.33); */
     border-radius: 8px;
     box-shadow: 0 4px 30px rgba(226, 226, 226, 0.1);
@@ -317,7 +327,7 @@ nav .navigation li a:hover{
     font-family: var(--pfont);
     text-align: center;
     border-radius: 10px 10px 0px 0px;
-    background-color: var(--fontcolor);
+    background-color: #07002d;
     box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
     -webkit-box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
     -moz-box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
