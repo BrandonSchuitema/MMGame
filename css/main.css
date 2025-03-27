@@ -68,10 +68,10 @@
     /* ------- */
 
     /* background-image  */
-    --bannerback:url(../media/MM_IMG/Game_MainMenu.png);/*At the very top*/
+    --bannerback:url(../media/MM_IMG/background_main.webp);/*At the very top*/
     --toggleimg:url(../media/menu-alt.png);
     --toggleactiveimg:url(../media/menu-x.png);
-    --merback:url(../media/MM_IMG/Game_MainMenu.png);
+    --merback:url(../media/MM_IMG/Screenshot\ 2025-03-27\ 134345.png);
 
     /*-------------------*/
 }
@@ -493,7 +493,7 @@ nav .navigation li a:hover{
     left: 95px;
     text-decoration: none;
     background-color: var(--fontcolor);
-    padding: 10px 20px;
+    padding: 10px;/*Had a 20 px beside it.*/
     border-radius: 8px;
     margin-top: 20px;
     border: none;
