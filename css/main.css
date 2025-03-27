@@ -8,6 +8,10 @@
     filter: drop-shadow(rgba(255, 255, 0, 0.5) 0rem 0rem 10px);
 }
 
+details > summary {
+    list-style-type: '';
+}
+
 .portLink{
     border: 2px solid transparent;
     border-radius: 10px;
