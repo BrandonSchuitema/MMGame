@@ -497,7 +497,7 @@ nav .navigation li a:hover{
     left: 95px;
     text-decoration: none;
     background-color: var(--fontcolor);
-    padding: 10px;/*Had a 20 px beside it.*/
+    padding: 10px 20px;
     border-radius: 8px;
     margin-top: 20px;
     border: none;
