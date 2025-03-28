@@ -494,7 +494,7 @@ nav .navigation li a:hover{
 .box .know{
     position: absolute;
     bottom: -20px;
-    left: 95px;
+    /*left: 95px;*/
     text-decoration: none;
     background-color: var(--fontcolor);
     padding: 10px 20px;
@@ -507,6 +507,10 @@ nav .navigation li a:hover{
     font-family:var(--navfont);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: all 0.75s ease-out;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box .know:hover{
