@@ -633,6 +633,14 @@ nav .navigation li a:hover{
     border-radius: 50px;
 
 }
+.copyright p{
+    text-decoration: none;
+    /* background-color: var(--fontcolor); */
+    color: var(--btncolor);
+    /* padding: 5px 15px; */
+    border-radius: 50px;
+
+}
 /*---------*/
 
 
