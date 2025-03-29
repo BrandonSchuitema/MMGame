@@ -45,18 +45,20 @@ details > summary {
 
 :root{
     /* colors  */
-    --backcolor:#12181c;
-    --fontcolor: rgb(252, 252, 169);/*#eeeae1*/
-    --btncolor:yellow;/*#00FFFF*/
+    --backcolor:#1e1600;
+    --fontcolor: #f4eaac;/*#eeeae1*/
+    --btncolor: #ead638;/*#00FFFF*/
     --fadecolor:#238888;
-    --ccolor:linear-gradient(221deg, #212121 28%, #00c1c1 100%);
+    --ccolor:linear-gradient(221deg, #212121 28%, #c10000 100%);
 
+    /*background-image: linear-gradient(221deg, #1c1212 28%, #270f00 100%);*/
     --box1color:#7100fb;
-    --box1image:linear-gradient(235deg, #6d5ec1 10%, #07002d 100%);
+    /*--box1image:linear-gradient(235deg, #ffffff 10%, #07002d 100%);*/
+    --box1image:linear-gradient(221deg, #1c1212 28%, #270f00 100%);
     --box2color:#118ff6;
-    --box2image:linear-gradient(235deg, #6d5ec1 10%, #07002d 100%);
+    --box2image:linear-gradient(221deg, #1c1212 28%, #270f00 100%);
     --box3color:#0d1518;
-    --box3image:linear-gradient(235deg, #6d5ec1 10%, #07002d 100%);
+    --box3image:linear-gradient(221deg, #1c1212 28%, #270f00 100%);
     /*---------*/
 
     /* fonts  */
@@ -351,12 +353,12 @@ nav .navigation li a:hover{
     position: relative;
     width: 340px;
     margin: 20px;
-    padding: 15px;
+    padding: 10px;
     /* background-color: var(--btncolor); */
-    background-color: #6d5ec1;
+    background-color: #270f00;
     /* background: rgba(255, 255, 255, 0.33); */
     border-radius: 8px;
-    box-shadow: 0 4px 30px rgba(226, 226, 226, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2.8px);
     -webkit-backdrop-filter: blur(2.8px);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -527,7 +529,7 @@ nav .navigation li a:hover{
     flex-direction: column;
     text-align: center;
     background-color: #212121;
-    background-image: linear-gradient(221deg, #12181c 28%, #00c1c1 100%);
+    background-image: linear-gradient(221deg, #1c1212 28%, #270f00 100%);
 }
 .contact .content .text{
     margin-bottom: 30px;
