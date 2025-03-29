@@ -92,7 +92,7 @@ details > summary {
     /* ------- */
 
     /* background-image  */
-    --bannerback:url(../media/MM_IMG/background_main.webp);/*At the very top*/
+    --bannerback:url(../media/MM_IMG/background_main.png);/*At the very top*/
     --toggleimg:url(../media/menu-alt.png);
     --toggleactiveimg:url(../media/menu-x.png);
     --merback:url(../media/MM_IMG/Screenshot\ 2025-03-27\ 134345.png);
