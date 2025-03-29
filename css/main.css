@@ -364,23 +364,6 @@ nav .navigation li a:hover{
     border: none;
     transition: 0.5s;
 }
-.game .content .box2{
-    position: relative;
-    width: 340px;
-    margin: 20px;
-    padding: 15px;
-    /* background-color: var(--btncolor); */
-    background-color: #6d5ec1;
-    /* background: rgba(255, 255, 255, 0.33); */
-    border-radius: 8px;
-    box-shadow: 0 4px 30px rgba(226, 226, 226, 0.1);
-    backdrop-filter: blur(2.8px);
-    -webkit-backdrop-filter: blur(2.8px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    outline: none;
-    border: none;
-    transition: 0.5s;
-}
 .game .content .box .text{
     position: absolute;
     bottom: 0;
