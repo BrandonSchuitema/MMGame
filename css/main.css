@@ -43,6 +43,24 @@ details > summary {
     transform: scale(1.2);
 }
 
+.skull{
+    animation: skullSpin 3s linear infinite;
+}
+@keyframes skullSpin{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    75%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 :root{
     /* colors  */
     --backcolor:#1e1600;
@@ -375,7 +393,7 @@ nav .navigation li a:hover{
     font-family: var(--pfont);
     text-align: center;
     border-radius: 10px 10px 0px 0px;
-    background-color: #07002d;
+    background-color: #270f00;/*Was #07002d*/
     box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
     -webkit-box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
     -moz-box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
