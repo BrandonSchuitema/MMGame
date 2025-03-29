@@ -124,6 +124,7 @@ body{
     max-width: 100%;
     overflow-x: hidden;
 
+    /*
     position: relative;
     justify-content: center;
     align-items: center;
@@ -131,6 +132,7 @@ body{
     background-position: center;
     margin-left: auto;
     margin-right: auto;
+    */
     /* height: 10000px; */
 }
 p{
@@ -211,7 +213,7 @@ nav .navigation li a:hover{
     background: var(--bannerback);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 .banner .content{
     max-width: 900px;
